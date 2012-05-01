@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA2CF6F1490940200219845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2CF6E1490940200219845 /* UIKit.framework */; };
+		CEA2CF711490940200219845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2CF701490940200219845 /* Foundation.framework */; };
+		CEA2CF731490940200219845 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2CF721490940200219845 /* CoreGraphics.framework */; };
+		CEA2CF791490940200219845 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA2CF771490940200219845 /* InfoPlist.strings */; };
+		CEA2CF7B1490940200219845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF7A1490940200219845 /* main.m */; };
+		CEA2CF7F1490940200219845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF7E1490940200219845 /* AppDelegate.m */; };
+		CEA2CF821490940200219845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF811490940200219845 /* ViewController.m */; };
+		CEA2CF851490940200219845 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2CF831490940200219845 /* ViewController_iPhone.xib */; };
+		CEA2CF881490940200219845 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2CF861490940200219845 /* ViewController_iPad.xib */; };
+		CEA2CF9E1490947000219845 /* CustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF901490947000219845 /* CustomPicker.m */; };
+		CEA2CF9F1490947000219845 /* CustomPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF921490947000219845 /* CustomPickerItem.m */; };
+		CEA2CFA51490947000219845 /* ButtonPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF9A1490947000219845 /* ButtonPicker.m */; };
+		CEA2CFA61490947000219845 /* ResizableUIPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CF9D1490947000219845 /* ResizableUIPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA2CF6A1490940200219845 /* UIPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA2CF6E1490940200219845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA2CF701490940200219845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA2CF721490940200219845 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA2CF761490940200219845 /* UIPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIPicker-Info.plist"; sourceTree = "<group>"; };
+		CEA2CF781490940200219845 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA2CF7A1490940200219845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA2CF7C1490940200219845 /* UIPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPicker-Prefix.pch"; sourceTree = "<group>"; };
+		CEA2CF7D1490940200219845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA2CF7E1490940200219845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA2CF801490940200219845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEA2CF811490940200219845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEA2CF841490940200219845 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEA2CF871490940200219845 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CEA2CF8F1490947000219845 /* CustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPicker.h; sourceTree = "<group>"; };
+		CEA2CF901490947000219845 /* CustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPicker.m; sourceTree = "<group>"; };
+		CEA2CF911490947000219845 /* CustomPickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerItem.h; sourceTree = "<group>"; };
+		CEA2CF921490947000219845 /* CustomPickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerItem.m; sourceTree = "<group>"; };
+		CEA2CF991490947000219845 /* ButtonPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonPicker.h; sourceTree = "<group>"; };
+		CEA2CF9A1490947000219845 /* ButtonPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonPicker.m; sourceTree = "<group>"; };
+		CEA2CF9C1490947000219845 /* ResizableUIPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableUIPicker.h; sourceTree = "<group>"; };
+		CEA2CF9D1490947000219845 /* ResizableUIPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableUIPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA2CF671490940200219845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA2CF6F1490940200219845 /* UIKit.framework in Frameworks */,
+				CEA2CF711490940200219845 /* Foundation.framework in Frameworks */,
+				CEA2CF731490940200219845 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA2CF5F1490940200219845 = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF8E1490947000219845 /* CustomPicker */,
+				CEA2CF931490947000219845 /* PickerWithButton */,
+				CEA2CF9B1490947000219845 /* ResizeableUIPicker */,
+				CEA2CF741490940200219845 /* UIPicker */,
+				CEA2CF6D1490940200219845 /* Frameworks */,
+				CEA2CF6B1490940200219845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA2CF6B1490940200219845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF6A1490940200219845 /* UIPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA2CF6D1490940200219845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF6E1490940200219845 /* UIKit.framework */,
+				CEA2CF701490940200219845 /* Foundation.framework */,
+				CEA2CF721490940200219845 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA2CF741490940200219845 /* UIPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF7D1490940200219845 /* AppDelegate.h */,
+				CEA2CF7E1490940200219845 /* AppDelegate.m */,
+				CEA2CF801490940200219845 /* ViewController.h */,
+				CEA2CF811490940200219845 /* ViewController.m */,
+				CEA2CF831490940200219845 /* ViewController_iPhone.xib */,
+				CEA2CF861490940200219845 /* ViewController_iPad.xib */,
+				CEA2CF751490940200219845 /* Supporting Files */,
+			);
+			path = UIPicker;
+			sourceTree = "<group>";
+		};
+		CEA2CF751490940200219845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF761490940200219845 /* UIPicker-Info.plist */,
+				CEA2CF771490940200219845 /* InfoPlist.strings */,
+				CEA2CF7A1490940200219845 /* main.m */,
+				CEA2CF7C1490940200219845 /* UIPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA2CF8E1490947000219845 /* CustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF8F1490947000219845 /* CustomPicker.h */,
+				CEA2CF901490947000219845 /* CustomPicker.m */,
+				CEA2CF911490947000219845 /* CustomPickerItem.h */,
+				CEA2CF921490947000219845 /* CustomPickerItem.m */,
+			);
+			path = CustomPicker;
+			sourceTree = "<group>";
+		};
+		CEA2CF931490947000219845 /* PickerWithButton */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF991490947000219845 /* ButtonPicker.h */,
+				CEA2CF9A1490947000219845 /* ButtonPicker.m */,
+			);
+			path = PickerWithButton;
+			sourceTree = "<group>";
+		};
+		CEA2CF9B1490947000219845 /* ResizeableUIPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CF9C1490947000219845 /* ResizableUIPicker.h */,
+				CEA2CF9D1490947000219845 /* ResizableUIPicker.m */,
+			);
+			path = ResizeableUIPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA2CF691490940200219845 /* UIPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA2CF8B1490940200219845 /* Build configuration list for PBXNativeTarget "UIPicker" */;
+			buildPhases = (
+				CEA2CF661490940200219845 /* Sources */,
+				CEA2CF671490940200219845 /* Frameworks */,
+				CEA2CF681490940200219845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPicker;
+			productName = UIPicker;
+			productReference = CEA2CF6A1490940200219845 /* UIPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA2CF611490940200219845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEA2CF641490940200219845 /* Build configuration list for PBXProject "UIPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA2CF5F1490940200219845;
+			productRefGroup = CEA2CF6B1490940200219845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA2CF691490940200219845 /* UIPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA2CF681490940200219845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA2CF791490940200219845 /* InfoPlist.strings in Resources */,
+				CEA2CF851490940200219845 /* ViewController_iPhone.xib in Resources */,
+				CEA2CF881490940200219845 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA2CF661490940200219845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA2CF7B1490940200219845 /* main.m in Sources */,
+				CEA2CF7F1490940200219845 /* AppDelegate.m in Sources */,
+				CEA2CF821490940200219845 /* ViewController.m in Sources */,
+				CEA2CF9E1490947000219845 /* CustomPicker.m in Sources */,
+				CEA2CF9F1490947000219845 /* CustomPickerItem.m in Sources */,
+				CEA2CFA51490947000219845 /* ButtonPicker.m in Sources */,
+				CEA2CFA61490947000219845 /* ResizableUIPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA2CF771490940200219845 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA2CF781490940200219845 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA2CF831490940200219845 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA2CF841490940200219845 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEA2CF861490940200219845 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA2CF871490940200219845 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA2CF891490940200219845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA2CF8A1490940200219845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA2CF8C1490940200219845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPicker/UIPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIPicker/UIPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA2CF8D1490940200219845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPicker/UIPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIPicker/UIPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA2CF641490940200219845 /* Build configuration list for PBXProject "UIPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA2CF891490940200219845 /* Debug */,
+				CEA2CF8A1490940200219845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA2CF8B1490940200219845 /* Build configuration list for PBXNativeTarget "UIPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA2CF8C1490940200219845 /* Debug */,
+				CEA2CF8D1490940200219845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA2CF611490940200219845 /* Project object */;
+}
